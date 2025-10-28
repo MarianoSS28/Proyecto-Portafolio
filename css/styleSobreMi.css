@@ -1,0 +1,105 @@
+@import url('style.css');
+/* Sección Sobre Mí */
+.sobre-mi {
+    padding: 5rem 5%;
+    background-color: var(--color-blanco);
+}
+
+.sobre-mi-content {
+    display: flex;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.foto-container {
+    flex: 1;
+}
+
+.foto-placeholder {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--color-rosa) 0%, var(--color-morado) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-blanco);
+    font-size: 1.2rem;
+}
+
+.info-personal {
+    flex: 2;
+}
+
+.nombre {
+    font-size: 2rem;
+    color: var(--color-negro);
+    margin-bottom: 0.5rem;
+}
+
+.profesion {
+    font-size: 1.2rem;
+    color: var(--color-morado);
+    margin-bottom: 1rem;
+}
+
+.descripcion {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+
+.dato-curioso {
+    background-color: var(--color-verde);
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.dato-curioso h4 {
+    margin-bottom: 0.5rem;
+}
+
+.habilidades, .galeria {
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+}
+
+.habilidades h3, .galeria h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--color-negro);
+}
+
+.programas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.programa-card {
+    background-color: var(--color-blanco);
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.programa-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Responsive Sobre Mí */
+@media (max-width: 768px) {
+    .sobre-mi-content {
+        flex-direction: column;
+    }
+
+    .foto-placeholder {
+        width: 200px;
+        height: 200px;
+    }
+}

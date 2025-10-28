@@ -1,0 +1,36 @@
+@import url('style.css');
+/* Sección Mi Trabajo */
+.mi-trabajo {
+    padding: 5rem 5%;
+    background: linear-gradient(135deg, var(--color-verde) 0%, var(--color-rosa) 100%);
+}
+
+.mi-trabajo .section-title {
+    color: var(--color-blanco);
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.galeria-item {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.galeria-placeholder {
+    width: 100%;
+    height: 250px;
+    background-color: var(--color-blanco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    transition: transform 0.3s;
+}
+
+.galeria-item:hover .galeria-placeholder {
+    transform: scale(1.05);
+}

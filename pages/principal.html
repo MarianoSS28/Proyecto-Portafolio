@@ -5,21 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleNav.css">
+    <link rel="stylesheet" href="../css/styleFooter.css">
+    <link rel="stylesheet" href="../css/stylePrincipal.css">    
+    <script src="../js/loadComponents.js"></script>
 </head>
 <body>
-    <!-- ACÁ QUIERO QUE SE INTEGRE EL NAV Y EL FOOTER COMO COMPONENTES Y NO COMO PARTE DEL CÓDIGO -->
-    <!-- Navegación -->
-    <nav class="navbar">        
-        <ul class="nav-links">
-            <li><a href="#sobre-mi">Sobre Mí</a></li>
-            <li><a href="#mi-trabajo">Mi Trabajo</a></li>
-        </ul>
-        <div class="logo">MI PORTAFOLIO</div>
-        <ul class="nav-links2">
-            <li><a href="#alumbre">Alumbre</a></li>
-            <li><a href="#contacto">Contáctame</a></li>
-        </ul>
-    </nav>
+    <div id="navbar-component"></div>
 
     <!-- Sección Principal -->
     <section id="inicio" class="hero">
@@ -45,14 +37,9 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>&copy; 2025 - Todos los derechos no reservados | Copyderecha</p>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="footer-link">
-            Ver video épico 😎
-        </a>
-    </footer>
+    <div id="footer-component"></div>
 
     <script src="../js/script.js"></script>
+    
 </body>
 </html>
