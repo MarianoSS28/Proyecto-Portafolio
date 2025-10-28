@@ -1,0 +1,19 @@
+
+/* Footer */
+.footer {
+    background-color: var(--color-negro);
+    color: var(--color-blanco);
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-link {
+    color: var(--color-verde);
+    text-decoration: none;
+    margin-left: 1rem;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: var(--color-rosa);
+}

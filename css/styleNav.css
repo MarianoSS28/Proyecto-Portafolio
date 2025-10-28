@@ -1,0 +1,32 @@
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: var(--color-blanco);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--color-verde);
+}
+
+.nav-links2 {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links2 a {
+    color: var(--color-blanco);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links2 a:hover {
+    color: var(--color-verde);
+}
