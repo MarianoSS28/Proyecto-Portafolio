@@ -2,6 +2,7 @@
 /* Sección Contacto */
 .contacto {
     padding: 5rem 5%;
+    padding-top: 120px;
     background-color: var(--color-negro);
 }
 

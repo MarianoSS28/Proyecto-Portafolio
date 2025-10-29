@@ -2,6 +2,7 @@
 /* Sección Alumbre */
 .alumbre {
     padding: 5rem 5%;
+    padding-top: 120px;
     background-color: var(--color-negro);
     color: var(--color-blanco);
 }

@@ -2,6 +2,7 @@
 /* Sección Sobre Mí */
 .sobre-mi {
     padding: 5rem 5%;
+    padding-top: 120px;
     background-color: var(--color-blanco);
 }
 
@@ -78,8 +79,13 @@
     gap: 1rem;
 }
 
+.logo-img-principal {
+    width: 200px; 
+    height: auto; 
+}
+
 .programa-card {
-    background-color: var(--color-blanco);
+    background-color: var(--color-verde);
     padding: 1.5rem;
     border-radius: 10px;
     text-align: center;
