@@ -84,16 +84,83 @@
     height: auto; 
 }
 
-.programa-card {
-    background-color: var(--color-verde);
+.programa-card-photoshop{
+    background-color: #31A8FF;
     padding: 1.5rem;
     border-radius: 10px;
     text-align: center;
     font-weight: bold;
+    border: 10px solid #1E6FA8;
+    transition: transform 0.3s;
+}
+.programa-card-illustrator{
+    background: #FF9A00;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 10px solid #B36800;
+    transition: transform 0.3s;
+}
+.programa-card-premiere{
+    background: #9999FF;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 10px solid #5C5C9E;
+    transition: transform 0.3s;
+}
+.programa-card-afterEffects{
+    background: #D291FF;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 10px solid #8C52A5;
+    transition: transform 0.3s;
+}
+.programa-card-vSCode{
+    background: #007ACC;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 10px solid #005A91;
+    transition: transform 0.3s;
+}
+.programa-card-figma{
+    background: #F24E1E;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 10px solid #A73413;
     transition: transform 0.3s;
 }
 
-.programa-card:hover {
+
+.programa-card-photoshop:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.programa-card-illustrator:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.programa-card-premiere:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.programa-card-afterEffects:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.programa-card-vSCode:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.programa-card-figma:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }

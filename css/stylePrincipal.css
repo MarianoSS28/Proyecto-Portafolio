@@ -10,7 +10,8 @@
     padding: 5rem 5%;    
     padding-top: 120px;
     margin-top: 60px;
-    text-align: center;
+    text-align: start;    
+    animation: fadeInUp 1s ease;
 }
 
 .hero-content {
@@ -18,20 +19,29 @@
     color: var(--color-negro);
 }
 
-.hero-title {
+.hero-name {
     font-size: 3.5rem;
     margin-bottom: 1rem;
-    animation: fadeInUp 1s ease;
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 .hero-lema {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
     font-style: italic;
 }
 
 .hero-bio {
-    font-size: 1.1rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-phrase {
+    font-size: 1.5rem;
     margin-bottom: 2rem;
 }
 
