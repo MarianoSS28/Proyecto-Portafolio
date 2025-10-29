@@ -2,7 +2,7 @@
 /* Sección Mi Trabajo */
 .mi-trabajo {
     padding: 5rem 5%;
-    background: linear-gradient(135deg, var(--color-verde) 0%, var(--color-rosa) 100%);
+    background: var(--color-blanco);
 }
 
 .mi-trabajo .section-title {

@@ -2,7 +2,7 @@
 /* Sección Hero */
 .hero {
     min-height: 100vh;
-    background: linear-gradient(135deg, var(--color-morado) 0%, var(--color-rosa) 100%);
+    background: var(--color-blanco);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,7 +14,7 @@
 
 .hero-content {
     max-width: 800px;
-    color: var(--color-blanco);
+    color: var(--color-negro);
 }
 
 .hero-title {
