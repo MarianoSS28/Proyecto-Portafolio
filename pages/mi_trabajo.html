@@ -16,44 +16,48 @@
     <div id="navbar-component"></div>
 
     <section id="mi-trabajo" class="mi-trabajo">
-        <!--<h2 class="section-title">Mi Trabajo</h2>-->
-        <h3>Cada proyecto comienza con una historia.</h3><br>
+        <h3>Cada proyecto comienza con una historia.</h3>
         <p>Mi enfoque no es solo capturar imágenes o videos, sino darles sentido y propósito visual.
             Trabajo desde la planificación hasta la postproducción, buscando siempre mantener una estética cuidada,
             moderna y funcional, adaptándome a cada marca.
-        </p><br><br>
-        <h4>En esta sección podrás explorar una selección de mis producciones:
-        </h4><br>
+        </p>
+        <h4>En esta sección podrás explorar una selección de mis producciones:</h4>
         <ul>
-            <li>Fotografía comercial: productos, retratos de marca, ambientes.
-
-            </li>
-            <li>Videografía profesional: spots publicitarios, reels, storytelling audiovisual.
-
-            </li>
-            <li>Procesos creativos: detrás de cámaras, moodboards, guiones y edición.
-            </li>
-        </ul><br><br><br>
+            <li>Fotografía comercial: productos, retratos de marca, ambientes.</li>
+            <li>Videografía profesional: spots publicitarios, reels, storytelling audiovisual.</li>
+            <li>Procesos creativos: detrás de cámaras, moodboards, guiones y edición.</li>
+        </ul>
         <div class="galeria">
-            <h3>Galería de Proyectos</h3><br>
+            <h3>Galería de Proyectos</h3>
             <div class="galeria-grid">
-                <div class="galeria-item">
+                <!-- Imagen clickeable -->
+                <div class="galeria-item" data-type="image">
                     <div class="galeria-placeholder">
-                        <img src="../assets/Perfume Publicitario copia.png" alt="Proyecto 1" class="galeria-imagen">
+                        <img src="../assets/Perfume Publicitario copia.png" alt="Perfume Publicitario" class="galeria-imagen">
                     </div>
                 </div>
-                <div class="galeria-item">
+                <!-- Video local - reemplaza "nombre-del-video.mp4" con el nombre real de tu video -->
+                <div class="galeria-item" data-type="video">
                     <div class="galeria-placeholder">
-                        <iframe src="https://www.instagram.com/p/DNvXPXyWvB0/embed" frameborder="0" scrolling="no"
-                            allowtransparency="true" class="galeria-video"></iframe>
+                        <video class="galeria-video" controls>
+                            <source src="../assets/Barbara blade final (1).mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento de video.
+                        </video>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Modal para visualizar imágenes -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
     <div id="footer-component"></div>
     <script src="../js/script.js"></script>
+    <script src="../js/modal.js"></script>
 </body>
 
 </html>
