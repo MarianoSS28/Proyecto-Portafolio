@@ -114,3 +114,67 @@
 .nav-links a:hover {
     color: var(--color-verde);
 }
+
+/* Contenedor del preview de imágenes */
+.nav-preview {
+    display: none;
+    position: fixed;
+    top: 80px; /* Ajusta según la altura de tu navbar */
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    padding: 1rem 5%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    animation: slideDown 0.3s ease;
+}
+
+.navbar.bg-black .nav-preview {
+    background-color: rgba(35, 31, 32, 0.98);
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links li:hover .nav-preview {
+    display: block;
+}
+
+.preview-images {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.preview-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgba(157, 45, 243, 0.4);
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-preview {
+        display: none !important;
+    }
+}
